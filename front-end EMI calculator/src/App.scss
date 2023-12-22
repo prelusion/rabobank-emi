@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* 100% of the viewport height */
+  background-color: #fefefe;
+
+
+  .emi-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+
